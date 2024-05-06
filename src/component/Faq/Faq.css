@@ -1,0 +1,135 @@
+
+.spacer-large {
+    width: 100%;
+    padding-top: 3rem;
+}
+
+.tab4_component {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.tab4_tabs-menu {
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+    background-color: #f7f7f8;
+    border-radius: .625rem;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: .25rem;
+    display: flex;
+    overflow: auto;
+}
+
+.tab4_tab-link {
+    background-color: transparent;
+    border: 1px solid transparent;
+    flex: none;
+    padding: .5rem 1.25rem;
+}
+.w-tab-link {
+    vertical-align: top;
+    text-align: left;
+    cursor: pointer;
+    color: #222;
+
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+}
+
+.tab-text {
+    text-align: center;
+    letter-spacing: -.01rem;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 150%;
+    color: #222;
+    cursor: pointer;
+}
+
+/* .w-tab-content {
+    display: block;
+    position: relative;
+    overflow: hidden;
+} */
+
+.tab4_tabs-content {
+    width: 60%;
+}
+
+.w--tab-active {
+    display: block;
+}
+
+.faq4_list {
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-rows: auto;
+    grid-template-columns: 100%;
+    grid-auto-columns: 100%;
+    align-items: start;
+    justify-items: stretch;
+    display: grid;
+}
+
+.faq4_accordion{
+    border: 1px solid #dee0e3;
+    border-radius: 1rem;
+}
+.faq4_question {
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    display: flex;
+}
+
+.text-size-medium.text-color-black {
+    color: #14151a;
+    font-weight: 500;
+   letter-spacing: -.0135rem;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.faq4_icon-wrappper {
+    align-self: flex-start;
+    width: 2rem;
+    margin-left: 1.5rem;
+    display: flex;
+}
+.icon-embed-small {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+}
+
+.faq4_answer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    overflow: hidden;
+    width: 100%;
+    height: 0px;
+}
+
+.text-size-regular.text-color-sec {
+    color: rgba(15,19,36,.6);
+    margin-bottom: 0;
+    font-weight: 500;
+    letter-spacing: -.01rem;
+    line-height: 150%;
+
+
+}
+
+.tab4_tab-link.hovered {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 5px; 
+}
